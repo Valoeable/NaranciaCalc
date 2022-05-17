@@ -2,26 +2,77 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     font-family: 'Cabin Sketch', cursive;
+    background-color: #fcf96e;
 }
 
+.uButtons,
+.oButtons,
+.nButtons{
+    font-family: 'Cabin Sketch', cursive;
+    cursor: crosshair;
+}
+
+.uButtons{
+    font-size: 35px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.oButtons,
+.nButtons{
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+}
+
+.oButtons{
+    font-size: 30px;
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nButtons{
+    padding: 10px;
+    font-size: 25px;
+    width: 70px;
+    height: 70px;
+}
+
+.mainNarancia{
+    width: 200px;
+    height: 225px;
+}
+
+h1{
+    color:#fa8128;
+}
 
 .mainBody{
     background-color: #fa8128;
-    height: 500px;
+    height: 600px;
     width: 400px;
     display: flex;
-    justify-content: center;
-    margin-top: 200px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
     border: 3px solid ;
     border-radius: 10px;
 }
 
-.numberDisplay{
+#numberDisplay{
     background-color: black;
     width: 350px;
     height: 50px;
     margin-top: 30px;
+    margin-bottom: 20px;
     color: white;
     font-size: 50px;
     display: flex;
@@ -30,3 +81,27 @@ body{
     padding: 5px;
     border: 2px solid white;
 }
+
+.utility{
+    display: flex;
+    gap: 215px;
+}
+
+.operators{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+.numbersOneToThree,
+.numbersFourToSix,
+.numbersSevenToNine,
+.finish{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 57px;
+}
+
